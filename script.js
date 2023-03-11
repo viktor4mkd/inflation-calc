@@ -19,7 +19,7 @@ function inflationCalculator() {
 
     let newElement = document.createElement('div');
     newElement.className = 'new-value';
-    newElement.innerText = `Denesnite ${money}evra vredat isto kako  ${worth} za ${years} godini.`;
+    newElement.innerText = `Today's ${money}euros are worth same like  ${worth} in ${years} years.`;
     document.querySelector('.container').appendChild(newElement);
 
 }
